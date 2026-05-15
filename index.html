@@ -9,31 +9,41 @@
 </head>
 <body class="container-fluid">
     <header>
-        <h2>Zachary Jordan</h2>
-        <button><a href="/about-me.html" rel="noopener noreferrer">link to about me</a></button>
+    <nav class="navbar bg-body-tertiary" >
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="/index.html">
+            <img src="/cat logo filler.png" alt="Logo" width="40" class="d-inline-block align-text-center">
+            Zachary Jordan
+            </a>
+        </div>
+    </nav>
     </header>
     <main>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">Zachary Jordan</h1>
-                <p class="lead">30 Year old father of 2, and husband to my lovely wife. Entry level programmer with experience in HTML, CSS, JavaScript and C# using Entity Framework Core.</p>
+                <h1 class="display-2">Zachary Jordan</h1>
+                <p class="lead">30 Year old father of 2, and husband to my lovely wife. Entry level programmer with experience in HTML, CSS with Bootstrap, JavaScript using React, and C# using Entity Framework Core.</p>
             </div>
             <div class="d-flex justify-content-between px-5">
-                <button class="btn btn-outline-dark mx-4">More about me</button>
-                <button style="align-self:end;"class="btn btn-outline-dark mx-4">My Detailed Resume/Work History</button>   
+                <a href="personal.html" class="btn btn-outline-dark mx-4">Hobbies and Interests </a>
+                <a href="about-me.html" class="btn btn-outline-dark mx-4">My Detailed Resume/Work History</a>   
             </div>
         </div>
-        <div class="container-fluid" name="purpose">
+        <div id="main-me">
+
+            <div class="container-fluid" name="purpose">
             <h2>Purpose</h2>
             <p>The purpose of this website is to showcase some of the experience I have when it comes to web development. I also plan to track my progress along the way for any skills I have learned through other projects.</p>
-
+            <p>My main goal is to experiment more with JavaScript it's self, and familiarize myself with manipulating the DOM. I also plan on experimenting with color palettes themes.</p>
         </div>
+        <hr>
         <div class="container-fluid" name="goals">
             <h2>Goals and Skills</h2>
             <p>The goal of this web site at the end of the day is to try and get a job working in either software development or IT support.</p>
             <p>I want to expand my knowledge with JavaScript, so this web page will be written entirely in JavaScript and HTML/CSS. I am also using bootstrap for a few minor things.</p>
         </div>
-
+        </div>
+        <hr>
     </main>
     <footer>
 

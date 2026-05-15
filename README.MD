@@ -1,2 +1,3 @@
 I wrote the majority of the website in mid May, 2026. I do my best to use as little AI as possible, I do use the auto complete sometimes for certain things, and most of the time I will copy and paste an error code and get Gemini or something to point me in the right direction.
 
+After about a day, I kind of realize I do use AI kind of a lot, but only because google defaults Gemini to answer a lot of questions, most of the time I would go to the documention, but it does help me understand how it works if documentation isn't the greatest. I am currently using it for different bootstrap css shorthands.
