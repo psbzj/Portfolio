@@ -1,3 +1,7 @@
+
+html {
+    font-size: 110%;
+}
 body {
     background-color: rgb(113, 153, 96);
     min-height: 100vh;
@@ -9,6 +13,9 @@ body {
 
 a:link, a:visited {
     color:black;
+}
+ul li {
+    list-style:square;
 }
 
 #me-main, #resume-dl{
